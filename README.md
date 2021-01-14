@@ -1,9 +1,16 @@
 # Hello Verilog  
 ## Purpose
-Verilog is one of most popular HDL (Hardware Description Language) in the world for IC designer.  
-The purpose of this project is teach you how to use your Mac OS X and VSCode to develope Verilog.  
-If you are a software developer, this project is good for your to get started.  
+Verilog is one of most popular HDL (Hardware Description Language) in the world for IC designer.  The purpose of this project is teach you how to use your Mac OS X and VSCode to develope Verilog.  If you are a software developer, this project is good for your to get started.  
 
+### HDL (Hardware Description Langague)
+The function of half adder is add two bit.  together. For the half adder design, you will have
+(1) Input: A, B  
+(2) Output: S (Sum) + C (Carry)  
+![Half Adder](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/half_adder.png)  
+
+So we can use logic gates to implement half adder. And the HDL is a langauge to describe what circuit it is. The abvoe picture show the two popular HDL to describe half adder.  
+![HDL](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/HDL.png)  
+Verilog is more like C programming language style and VHDL is more like Ada programming language style. In this hello project, I decide to use Verilog.  
 ## Environment Setup  
 $ brew install icarus-verilog  
 If you don't have brew, then do the following command to install HomeBrew to have it.  
