@@ -84,3 +84,12 @@ $ brew install gtkwave
 
 ## GUI Result for GTKWave to open ./out/mytest.vcd file  
 ![VCD Result](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/result.png)  
+
+BTW, when I create this project, I refer   
+https://www.twblogs.net/a/5d21a78bbd9eee1e5c83bd9b   
+https://www.edaplayground.com/  
+https://blog.fkynjyq.com/write-verilog-with-vscode   
+https://formulae.brew.sh/formula/icarus-verilog  
+https://www.easonchang.com/2016/03/18/verilog-on-macosx/  
+https://ithelp.ithome.com.tw/articles/10196424  
+
