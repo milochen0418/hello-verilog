@@ -8,8 +8,19 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ## Edit by VSCode 
 At the first, install VSCode extension Verilog-HDL/SystemVerilog... made by mshr-h   
 Then you can see correct color in VSCode. 
+$ code hello.v  
+<pre>
+module main;
+  initial 
+    begin
+      $display("Hello, World");
+      $finish ;
+    end
+endmodule
+</pre>
 ## Compile
-$ iverilog -o ./out/hello hello.v
+$ iverilog -o ./out/hello hello.v  
 
 ## Execuite
-$ vvp ./out/hello
+$ vvp ./out/hello  
+
