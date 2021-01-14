@@ -1,4 +1,8 @@
-# Hello Verilog
+# Hello Verilog  
+## Purpose
+Verilog is one of most popular HDL (Hardware Description Language) in the world for IC designer.  
+The purpose of this project is teach you how to use your Mac OS X and VSCode to develope Verilog.  
+If you are a software developer, this project is good for your to get started.  
 
 ## Environment Setup  
 $ brew install icarus-verilog  
