@@ -49,7 +49,7 @@ module	t_Simple_Circuit;
 	
   //apply inputs one at a time
   initial	begin
-    $dumpfile("mytest.vcd");
+    $dumpfile("./out/mytest.vcd");
     $dumpvars;
     A=1'b0; B=1'b0; C=1'b0;
     #100 A=1'b1; B=1'b1; C=1'b1; 
@@ -58,3 +58,7 @@ module	t_Simple_Circuit;
   initial #200 $finish;
 endmodule
 </code></pre>
+## Compile Circuit  
+$ iverilog -o ./out/mycircuit t_Simple_Circuit.v Simple_Circuit.v  
+## Execute Circuit to generate .vcd file for GTKWave  
+$ vvp ./out/mycircuit  
