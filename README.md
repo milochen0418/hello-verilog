@@ -72,3 +72,4 @@ $ brew install gtkwave
 3. Then you can see something has been import and you can click it.  
 
 ## GUI Result for GTKWave to open ./out/mytest.vcd file  
+![VCD Result](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/result.png)  
