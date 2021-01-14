@@ -62,3 +62,13 @@ endmodule
 $ iverilog -o ./out/mycircuit t_Simple_Circuit.v Simple_Circuit.v  
 ## Execute Circuit to generate .vcd file for GTKWave  
 $ vvp ./out/mycircuit  
+
+## Install GTKWave by HomeBrew
+$ brew install gtkwave  
+
+## Use GTKWave to open .vcd file  
+1. Open GTKWave from your Mac Desktop GUI  
+2. In the GTKWave application, TopMenu -> File -> Open New Tab -> (Choice your ./out/mytest.vcd)  
+3. Then you can see something has been import and you can click it.  
+
+## GUI Result for GTKWave to open ./out/mytest.vcd file  
