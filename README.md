@@ -12,7 +12,7 @@ So we can use logic gates to implement half adder. And the HDL is a langauge to 
 ![HDL](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/HDL.png)  
 Verilog is more like C programming language style and VHDL is more like Ada programming language style. In this hello project, I decide to use Verilog.  
 ## Environment Setup  
-$ brew install icarus-verilog  
+$ **brew install icarus-verilog**  
 If you don't have brew, then do the following command to install HomeBrew to have it.  
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
 
