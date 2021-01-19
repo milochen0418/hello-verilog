@@ -11,5 +11,5 @@ module full_adder(
   wire P,G,H;
   half_adder  ha1(A,B,G,P);
   half_adder  ha2(P,Cin,H,S);
-  or (Cout,G,H);
+  or #5 (Cout,G,H);
 endmodule
