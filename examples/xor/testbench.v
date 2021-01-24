@@ -6,8 +6,8 @@ module my_xor_TB();
   my_xor XOR1(a_xor_b,a,b);
 
   initial begin
-    $display("Hello, my_xor");
-    $dumpfile("dump.vcd"); 
+    $display("Hello, This is my_xor");
+    $dumpfile("./out/dump.vcd"); 
     $display("$dumpvars(1,my_xor_TB);");
     $dumpvars(1,my_xor_TB);
     a=0;
