@@ -1,7 +1,7 @@
 
 # XOR example
 
-# Compile
+## Compile
 $ iverilog -o ./out/my_xor ./my_xor.v ./testbench.v  
 
 ## Execute 
