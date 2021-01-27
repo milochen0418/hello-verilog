@@ -93,3 +93,9 @@ https://formulae.brew.sh/formula/icarus-verilog
 https://www.easonchang.com/2016/03/18/verilog-on-macosx/  
 https://ithelp.ithome.com.tw/articles/10196424  
 
+# More examples in project 
+After understand how to use **Mac OS X** and **VSCode** to develop **Verilog**, there are more basic examples for you to study here.   
+### XOR Gate  
+https://github.com/milochen0418/hello-verilog/tree/master/examples/xor  
+### Four Bits Adder 
+https://github.com/milochen0418/hello-verilog/tree/master/examples/4bits_adder  
