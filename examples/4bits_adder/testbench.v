@@ -17,18 +17,18 @@ module bit4_adderTB();
     $dumpfile("./out/dump.vcd"); 
     $display("$dumpvars(1,bit4_adderTB);");
     $dumpvars(1,bit4_adderTB);  
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #2  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
     A=4'd3; B=4'd4;
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #5  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
     A=4'd0; B=4'd5;
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #5  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
     A=4'd9; B=4'd2;
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #5  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
     A=4'd10; B=4'd10;
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #5  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
     A=4'd15; B=4'd15;
-    #100  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
-    #100  $finish;
+    #5  $display("A = %d, B = %d, FBA = %d", A, B, C[4:0]);
+    #1  $finish;
   end
 endmodule
 
