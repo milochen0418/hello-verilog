@@ -39,4 +39,5 @@ Use GTKwave to open the file in ./out/dump.vcd
 And the result will be as the following   
 ![GTKwave result](https://github.com/milochen0418/hello-verilog/raw/master/examples/4bits_adder/result.png)  
 
-
+## One command to rebuild and re-simulate 
+$ iverilog -o ./out/bit4_adder ./half_adder.v ./full_adder.v ./bit4_adder.v ./testbench.v && ./out/bit4_adder && open ./out/dump.vcd  
