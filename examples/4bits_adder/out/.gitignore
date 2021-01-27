@@ -1,2 +1,3 @@
 !.gitignore
-
+dump.vcd
+bit4_adder
