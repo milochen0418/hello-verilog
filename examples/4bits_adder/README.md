@@ -36,5 +36,7 @@ and generate the ./out/dump.vcd.
 
 ## Simulate  
 Use GTKwave to open the file in ./out/dump.vcd   
-And the result will be as the following  
+And the result will be as the following   
+![GTKwave result](https://github.com/milochen0418/hello-verilog/raw/master/examples/4bits_adder/result.png)  
+
 
