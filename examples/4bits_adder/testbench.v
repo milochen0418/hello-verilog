@@ -13,7 +13,9 @@ module bit4_adderTB();
     );
   
   initial begin 
-    $dumpfile("dump.vcd"); 
+    $display("Hello, This is bit4_adder");
+    $dumpfile("./out/dump.vcd"); 
+    $display("$dumpvars(1,bit4_adderTB);");
     $dumpvars(1,bit4_adderTB);  
     #100  A=4'd3; B=4'd4;
     #100  A=4'd0; B=4'd5;
