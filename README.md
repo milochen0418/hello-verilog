@@ -20,7 +20,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 At the first, install VSCode extension Verilog-HDL/SystemVerilog... made by mshr-h   
 Then you can see correct color in VSCode. 
 $ code hello.v  
-<pre><code>
+```Verilog
 module main;
   initial 
     begin
@@ -28,7 +28,8 @@ module main;
       $finish ;
     end
 endmodule
-</code></pre>
+```
+
 ## Compile
 $ iverilog -o ./out/hello hello.v  
 
@@ -38,7 +39,8 @@ Hello, World
 
 ## Edit more files
 $ code Simple_Circuit.v  
-<pre><code>
+
+```Verilog
 module	Simple_Circuit(A, B, C, D, E);  
     output D, E;  
     input  A, B, C;  
@@ -47,10 +49,12 @@ module	Simple_Circuit(A, B, C, D, E);
     not    G2(E, C);
     or     G3(D, w1, E);
 endmodule
-</code></pre>
+```
+
 
 $ code t_Simple_Circuit.v  
-<pre><code>
+```Verilog
+
 module	t_Simple_Circuit;
   wire	D, E;
   reg		A, B, C;
@@ -68,7 +72,8 @@ module	t_Simple_Circuit;
   
   initial #200 $finish;
 endmodule
-</code></pre>
+
+```
 ## Compile Circuit  
 $ iverilog -o ./out/mycircuit t_Simple_Circuit.v Simple_Circuit.v  
 ## Execute Circuit to generate .vcd file for GTKWave  
