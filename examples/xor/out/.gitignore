@@ -1,3 +1,2 @@
 !.gitignore
-dump.vcd
-my_xor
+*
