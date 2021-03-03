@@ -1,5 +1,5 @@
 
-# XOR example
+# Blocking vs nonblocking
 ## Design
 
 
