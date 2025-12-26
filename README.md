@@ -90,6 +90,17 @@ $ brew install gtkwave
 ## GUI Result for GTKWave to open ./out/mytest.vcd file  
 ![VCD Result](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/result.png)  
 
+## Recommended Alternative: Surfer (VS Code Extension)
+Nowadays, using **Surfer** extension in VSCode is much more convenient and faster than GTKWave. You don't need to leave VSCode to check the waveform.  
+
+### 1. Install Surfer Extension
+Search `surfer` in VSCode extensions marketplace and install it.  
+![Install Surfer](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/install_surfer_vscode_extension.png)
+
+### 2. Open VCD file with Surfer
+Just click the `.vcd` file in VSCode file explorer, and choose Surfer to open it.  
+![Run Surfer](https://raw.githubusercontent.com/milochen0418/hello-verilog/master/run_surfer_vscode_extension.png)
+
 BTW, when I create this project, I refer   
 https://www.twblogs.net/a/5d21a78bbd9eee1e5c83bd9b   
 https://www.edaplayground.com/  
